@@ -12,23 +12,6 @@ This repository provides the full-stack implementation of a To-Do List applicati
 - **CRUD Operations**: Create, read, update, and delete to-do items.
 - **MongoDB**: Used for persistent storage.
 
----
-
-## Prerequisites
-
-Ensure the following are installed on your system:
-
-1. **Node.js** (v16+ recommended)  
-   [Download Node.js](https://nodejs.org/)
-
-2. **npm** (comes with Node.js) or **yarn**  
-   [Download Yarn](https://yarnpkg.com/)
-
-3. **MongoDB**  
-   Install and start MongoDB on your machine or use a cloud-based MongoDB service like [MongoDB Atlas](https://www.mongodb.com/atlas).
-
----
-
 ## Backend Setup
 
 The backend handles the API and database operations for the To-Do List application. Follow these steps to set it up:
@@ -61,6 +44,7 @@ Start the Frontend Development Server
 | POST   | `/new`      | Add a new to-do item     |
 | PUT    | `/:id`  | Update a to-do item      |
 
+There are also authenication endpoints (which are done as an additional aspect)
 ---
 
 URLS:
